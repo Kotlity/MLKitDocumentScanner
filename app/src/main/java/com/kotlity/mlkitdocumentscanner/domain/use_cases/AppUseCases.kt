@@ -1,0 +1,25 @@
+package com.kotlity.mlkitdocumentscanner.domain.use_cases
+
+import com.kotlity.mlkitdocumentscanner.domain.use_cases.document_scanner_use_case.MLKitScanDocumentUseCase
+import com.kotlity.mlkitdocumentscanner.domain.use_cases.file_downloader_use_case.PDFFileDownloaderUseCase
+import com.kotlity.mlkitdocumentscanner.domain.use_cases.preferences_use_cases.GalleryImportAllowedAddValueUseCase
+import com.kotlity.mlkitdocumentscanner.domain.use_cases.preferences_use_cases.GalleryImportAllowedGetValueUseCase
+import com.kotlity.mlkitdocumentscanner.domain.use_cases.preferences_use_cases.PageLimitAddValueUseCase
+import com.kotlity.mlkitdocumentscanner.domain.use_cases.preferences_use_cases.PageLimitGetValueUseCase
+import com.kotlity.mlkitdocumentscanner.domain.use_cases.preferences_use_cases.ResultFormatsAddValueUseCase
+import com.kotlity.mlkitdocumentscanner.domain.use_cases.preferences_use_cases.ResultFormatsGetValueUseCase
+import com.kotlity.mlkitdocumentscanner.domain.use_cases.preferences_use_cases.ScannerModeAddValueUseCase
+import com.kotlity.mlkitdocumentscanner.domain.use_cases.preferences_use_cases.ScannerModeGetValueUseCase
+
+data class AppUseCases(
+    val mlKitScanDocumentUseCase: MLKitScanDocumentUseCase,
+    val pdfFileDownloaderUseCase: PDFFileDownloaderUseCase,
+    val galleryImportAllowedAddValueUseCase: GalleryImportAllowedAddValueUseCase,
+    val galleryImportAllowedGetValueUseCase: GalleryImportAllowedGetValueUseCase,
+    val pageLimitAddValueUseCase: PageLimitAddValueUseCase,
+    val pageLimitGetValueUseCase: PageLimitGetValueUseCase,
+    val resultFormatsAddValueUseCase: ResultFormatsAddValueUseCase,
+    val resultFormatsGetValueUseCase: ResultFormatsGetValueUseCase,
+    val scannerModeAddValueUseCase: ScannerModeAddValueUseCase,
+    val scannerModeGetValueUseCase: ScannerModeGetValueUseCase
+)

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MLKitDocumentScanner</string>
+    <string name="top_app_bar_title">Document Scanner</string>
+    <string name="scanner_button_text">Scan</string>
+    <string name="download_pdf_file_button_text">Download as PDF file</string>
+    <string name="scanner_button_error_text">Try again</string>
+    <string name="gallery_import_allowed_switcher_title">Gallery import</string>
+    <string name="scanned_images_limit_title">Images limit:</string>
+    <string name="scanner_format_title">Scanner format</string>
+    <string name="scanner_mode_title">Scanner mode</string>
+    <string name="scanner_format_jpeg">JPEG</string>
+    <string name="scanner_format_pdf">PDF</string>
+    <string name="scanner_format_jpeg_pdf">JPEG and PDF</string>
+    <string name="scanner_mode_full">Full</string>
+    <string name="scanner_mode_base_with_filter">Base with filter</string>
+    <string name="scanner_mode_base">Base</string>
+    <string name="pdf_file_has_been_successfully_downloaded">%1$s has been successfully uploaded. You can find it in the application directory in the files folder</string>
+    <string name="pdf_file_io_exception">An IO exception occurred while downloading the file</string>
+    <string name="pdf_file_file_system_exception">An file system exception occurred while downloading the file</string>
+    <string name="pdf_file_out_of_memory_error">An out of memory error occurred while downloading the file</string>
+    <string name="pdf_file_number_format_exception">An number format exception occurred while downloading the file</string>
+    <string name="pdf_file_security_exception">An security exception occurred while downloading the file</string>
+</resources>
